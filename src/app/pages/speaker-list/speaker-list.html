@@ -10,7 +10,7 @@
 <ion-content fullscreen="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">أساسيات قواعد الانجليزي</ion-title>
+      <ion-title size="large">فراد العائلة </ion-title>
     </ion-toolbar>
   </ion-header>
 
@@ -24,8 +24,7 @@
                 <img [src]="speaker.profilePic" [alt]="speaker.name + ' profile picture'">
               </ion-avatar>
               <ion-label>
-                <h2>{{speaker.name}}</h2>
-                <p>{{speaker.title}}</p>
+                <h2>{{speaker.arabe}}</h2>
               </ion-label>
             </ion-item>
           </ion-card-header>
@@ -39,8 +38,8 @@
               </ion-item>
 
               <ion-item detail="false" routerLink="/app/tabs/speakers/speaker-details/{{speaker.id}}">
-                <ion-label>
-                  <h3>About {{speaker.name}}</h3>
+                <ion-label class="mini-rtl">
+                  <h3>{{speaker.english}}</h3>
                 </ion-label>
               </ion-item>
             </ion-list>

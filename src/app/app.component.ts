@@ -20,19 +20,32 @@ import { UserData } from './providers/user-data';
 export class AppComponent implements OnInit {
   appPages = [
     {
-      title: 'Schedule',
+      title: 'الأرقام',
+      url: '/app/tabs/schedule',
+      icon: 'calendar-number'
+    },  {
+      title: 'أيام الاسبوع و الشهور',
       url: '/app/tabs/schedule',
       icon: 'calendar'
     },
     {
-      title: 'Speakers',
+      title: 'أفراد العائلة ',
       url: '/app/tabs/speakers',
       icon: 'people'
     },
     {
-      title: 'Map',
+      title: 'ألوان',
       url: '/app/tabs/map',
-      icon: 'map'
+      icon: 'color-palette'
+    },      
+    {
+      title: 'الجسم',
+      url: '/app/tabs/map',
+      icon: 'body'
+    },    {
+      title: 'سفر',
+      url: '/app/tabs/map',
+      icon: 'airplane'
     },
     {
       title: 'About',

@@ -15,8 +15,8 @@ ion-col:not(:last-of-type) .speaker-card {
 }
 
 .speaker-card .speaker-item h2 {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 32px;
+  font-weight: bold;
   letter-spacing: 0.02em;
 }
 
@@ -37,6 +37,12 @@ ion-col:not(:last-of-type) .speaker-card {
 
 .ios ion-list {
   margin-bottom: 10px;
+}
+
+.mini-rtl {
+  text-align:left;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .md ion-list {
